@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: local
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 15MB
+
+server:
+  port: 10010
+  servlet:
+    context-path: /aop
